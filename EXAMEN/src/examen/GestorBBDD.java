@@ -37,7 +37,7 @@ public class GestorBBDD {
                     // No fer res
                 }
             }
-            if (valorsConnexio.size() != 4)
+            if (valorsConnexio.size() != 4 && valorsConnexio.size() != 3)
                 throw new SQLException("L'arxiu no contemple totes les dades de connexi�");
         } catch (IOException e) {
             System.err.println("Error llegint l'arxiu: " + e.getMessage());
