@@ -37,6 +37,26 @@ class Vehicle {
         return preu;
     }
 
+    public void setMatricula(String matricula) {
+        this.matricula = matricula;
+    }
+
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    public void setAny(int any) {
+        this.any = any;
+    }
+
+    public void setPreu(double preu) {
+        this.preu = preu;
+    }
+
     @Override
     public String toString() {
         return "Vehicle{" + "matricula=" + matricula + ", marca=" + marca + ", model=" + model + ", any=" + any + ", preu=" + preu + '}';
